@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../images/home.png") center/cover no-repeat;
+    
+    
+}
+
+.header-content
+{
+    flex-direction: column;
+}
+
+.header-title
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 13.2rem;
+    margin-left: 5rem;
+}
+.header-text
+{
+    /* opacity: 0.7; */
+    /* margin-top: 20.2rem; */
+    /* margin-bottom: 2.8rem; */
+    max-width: 650px;
+    margin-left: 25rem; 
+    margin-left: 25rem;
+}
